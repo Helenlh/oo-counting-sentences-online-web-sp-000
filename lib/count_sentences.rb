@@ -16,7 +16,7 @@ class String
   
   
   def count_sentences
-    complex_String = self.split(/\.(?=[\w])/)
+    self complex_String = self.split(/\.(?=[\w])/)
     puts complex_String 
     #complex_String = /$|!/
   
