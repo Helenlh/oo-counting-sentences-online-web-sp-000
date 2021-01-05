@@ -16,7 +16,6 @@ class String
   
   
   def count_sentences
-    puts self 
     string_array = self.split(/\.|!|\?/)
     updated_array = string_array.reject { |c| c.empty?}
     puts updated_array 
