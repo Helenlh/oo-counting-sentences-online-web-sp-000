@@ -25,7 +25,7 @@ class String
     
     # puts complex_String 
     # if complex_String.include? ("") || complex_String.end_with?("  ")
-    return updated_array.lengh
+    return updated_array.length
 end
 end
 
