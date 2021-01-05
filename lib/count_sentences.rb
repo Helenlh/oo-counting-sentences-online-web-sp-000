@@ -11,17 +11,26 @@ class String
   end
  
    def exclamation?
-    self.end_with?("!")
+    self.end_with?("!") 
   end 
   
   
   def count_sentences
-    complex_String = self.split("."|| "!"|| "?" || ",")
-    binding.pry 
-    if complex_String.include? "" || self.end_with?("  ")
-      binding.pry 
+    complex_String = self.split(/\.(?=[\w])/)
+    puts complex_String 
+    #complex_String = /$|!/
+  complex_String = /$|!|\?/
+     puts complex_String 
+    #complex_String = (/?-mix:$|!/)
+    
+    puts complex_String 
+   # puts complex_String 
+    if complex_String.include? ("") || complex_String.end_with?("  ")
      return complex_String.lengh
-     binding.pry 
   end
 end
-end  
+end
+
+
+#\z - Matches end of string
+#$ end of sentence 
