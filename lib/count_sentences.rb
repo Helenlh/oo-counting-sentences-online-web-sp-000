@@ -16,14 +16,14 @@ class String
   
   
   def count_sentences
-        puts complex_String 
+    complex_String = self.split(/\.(?=[\w])/)
+    puts complex_String 
     #complex_String = /$|!/
   
     
-    puts complex_String 
-   # puts complex_String 
-    if complex_String.include? ("") || complex_String.end_with?("  ")
-     return complex_String.lengh
+    # puts complex_String 
+    # if complex_String.include? ("") || complex_String.end_with?("  ")
+    # return complex_String.lengh
   end
 end
 end
