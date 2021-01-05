@@ -18,8 +18,8 @@ class String
   def count_sentences
     puts self 
     string_array = self.split(/\.|!|\?/)
-    
-    puts complex_String 
+    updated_array = string_array.reject { |c| c.empty?}
+    puts updated_array 
     #complex_String = /$|!/
   
     
