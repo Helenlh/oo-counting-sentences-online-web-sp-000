@@ -16,12 +16,9 @@ class String
   
   
   def count_sentences
-    complex_String = self.split(/\.(?=[\w])/)
-    puts complex_String 
+        puts complex_String 
     #complex_String = /$|!/
-  complex_String = /$|!|\?/
-     puts complex_String 
-    #complex_String = (/?-mix:$|!/)
+  
     
     puts complex_String 
    # puts complex_String 
