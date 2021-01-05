@@ -24,7 +24,6 @@ class String
     # puts complex_String 
     # if complex_String.include? ("") || complex_String.end_with?("  ")
     # return complex_String.lengh
-  end
 end
 end
 
